@@ -1,0 +1,131 @@
+ /* works font sans style from goole  */
+ @import url('https://fontzs.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+
+ /* shared style* */
+ * {
+     font-family: 'lato', sans-serif;
+     font-family: 'Open Sans', sans-serif;
+     font-family: 'Work Sans', sans-serif;
+
+     .btn-primary {
+         color: #FFFFFF;
+         text-align: center;
+         font-size: 1rem;
+         font-weight: 800;
+         border-radius: 8px;
+         background: #FF5400;
+         border: none;
+         width: 174px;
+         height: 52px;
+     }
+ }
+
+ /* header section style */
+ nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ nav>ul {
+     display: flex;
+ }
+
+ .hero-travel {
+     display: flex;
+     font-size: 2.25rem;
+     color: #131318;
+     font-weight: 800;
+ }
+
+ .travel {
+     color: #FF5400;
+ }
+
+ ul li {
+     list-style: none;
+     margin-right: 40px;
+     font-size: 1.25rem;
+     font-weight: 400;
+     color: #424247;
+ }
+
+ .home {
+     color: #FF5400;
+ }
+
+ .explore {
+     text-align: center;
+ }
+
+ .your-travel {
+     color: brown;
+     font-size: 4rem;
+     font-weight: 800;
+     position: absolute;
+     margin-left: 200px;
+ }
+
+ .travel-description {
+     color: brown;
+     font-size: 16px;
+     font-weight: 400;
+     margin-left: 200px;
+     position: absolute;
+ }
+
+ .image-thirteen {
+     border-radius: 16px;
+     background: #131318, #13131800;
+     margin-top: 30px;
+     position: relative;
+ }
+
+ .explore-travel {
+     position: absolute;
+     padding: 50px;
+ }
+
+ /* popular tour section style */
+ .popular-tours-paragraph {}
+
+ .our-popular-tours {
+     display: flex;
+     margin-top: 80px;
+     margin-right: 140px;
+     margin-left: 145px;
+ }
+
+ .popular-image {
+     width: 100%;
+     height: 70%;
+ }
+
+ /* chose your destination style */
+
+ .choose-your-destination-image {
+     margin-left: 120px;
+     margin-right: 120px;
+     margin-top: 10px;
+ }
+
+ .choose-your-destination {
+     text-align: center;
+
+ }
+
+ .choose-your-destination h1 {
+     color: #131318;
+     text-align: center;
+     font-size: 2.5rem;
+     font-weight: 800;
+ }
+
+ .choose-your-destination p {
+     color:#131318B2;
+     font-size: 1rem;
+     font-weight: 400;
+     padding: 10px;
+
+ }

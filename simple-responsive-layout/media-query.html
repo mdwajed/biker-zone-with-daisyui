@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+    .container{
+        display: grid;
+        grid-template-columns:repeat(3,1fr);
+        gap: 15px;
+    }
+    .food{
+        border: 2px solid red;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .food img{
+        width: 100%;
+    }
+    @media screen and (max-width:576px){
+    .container{
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    .food{
+        background-color: aquamarine;
+    }
+}
+    @media screen and (min-width: 576px) and (max-width:992px){
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    }
+    </style>
+
+
+</head>
+<body>
+    <!-- .container>.food*12>img[src="image/AdobeStock_310581123-1.jpeg"]+h3{Food Item - $}+p{price: $$00}+p>lorem20^btn{Buy Now} -->
+    <div class="container">
+        <div class="food">
+            <img src="image/AdobeStock_310581123-1.jpeg" alt="">
+            <h3>Food Item - 1</h3>
+            <p>price: 0100</p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero unde dolores excepturi aliquid fuga minima repellat tempore earum consequuntur eligendi.
+        </div>
+        <div class="food">
+            <img src="image/AdobeStock_310581123-1.jpeg" alt="">
+            <h3>Food Item - 2</h3>
+            <p>price: 0200</p>
+            Reprehenderit illum, sint dolores magni eos ducimus cum blanditiis numquam id tenetur beatae incidunt sed at quisquam natus maiores in?
+        </div>
+        <div class="food">
+            <img src="image/AdobeStock_310581123-1.jpeg" alt="">
+            <h3>Food Item - 3</h3>
+            <p>price: 0300</p>
+            Ipsam rerum aspernatur necessitatibus fuga optio et placeat quo earum voluptatibus in ratione mollitia repudiandae rem quod inventore, velit possimus!
+        </div>
+        <div class="food">
+            <img src="image/AdobeStock_310581123-1.jpeg" alt="">
+            <h3>Food Item - 4</h3>
+            <p>price: 0400</p>
+            Error obcaecati, fugiat incidunt nobis, eius nisi, alias atque eveniet mollitia quia recusandae dolorem! Dicta ea suscipit molestiae at esse!
+        </div>
+        <div class="food">
+            <img src="image/AdobeStock_310581123-1.jpeg" alt="">
+            <h3>Food Item - 5</h3>
+            <p>price: 0500</p>
+            Reiciendis nulla cumque, incidunt sequi autem architecto recusandae consectetur optio aut aliquam assumenda beatae praesentium rerum sapiente officiis numquam doloribus!
+        </div>
+        <div class="food">
+            <img src="image/AdobeStock_310581123-1.jpeg" alt="">
+            <h3>Food Item - 6</h3>
+            <p>price: 0600</p>
+            Necessitatibus voluptate totam, quam itaque recusandae dolorem facilis labore cupiditate expedita! Itaque est illo, veniam porro dignissimos voluptatibus modi. Illo.
+        </div>
+        <div class="food">
+            <img src="image/AdobeStock_310581123-1.jpeg" alt="">
+            <h3>Food Item - 7</h3>
+            <p>price: 0700</p>
+            Vel tenetur autem quas esse voluptatum error nesciunt sequi voluptatibus, fugit quam dolorem veritatis amet, eius explicabo consequuntur omnis tempore.
+        </div>
+        <div class="food">
+            <img src="image/AdobeStock_310581123-1.jpeg" alt="">
+            <h3>Food Item - 8</h3>
+            <p>price: 0800</p>
+            Error quis quaerat accusamus porro possimus necessitatibus maiores aperiam reprehenderit reiciendis ad officia soluta eligendi, quo consectetur libero magni? Nostrum?
+        </div>
+        <div class="food">
+            <img src="image/AdobeStock_310581123-1.jpeg" alt="">
+            <h3>Food Item - 9</h3>
+            <p>price: 0900</p>
+            Hic ab incidunt facilis, ipsum magni, aliquam explicabo placeat ad deleniti aspernatur eligendi animi nam consectetur expedita? Dolorum, qui cumque?
+        </div>
+        <div class="food">
+            <img src="image/AdobeStock_310581123-1.jpeg" alt="">
+            <h3>Food Item - 10</h3>
+            <p>price: 1000</p>
+            Neque eos officia ad, aliquid reprehenderit praesentium tempora laborum veniam cum nihil iste maxime sed in ratione provident. Blanditiis, molestias.
+        </div>
+        <div class="food">
+            <img src="image/AdobeStock_310581123-1.jpeg" alt="">
+            <h3>Food Item - 11</h3>
+            <p>price: 1100</p>
+            Aliquam, eaque incidunt, iure, aut unde eligendi autem cupiditate a tempore repudiandae soluta. Quaerat quasi adipisci ab, molestiae dicta nobis.
+        </div>
+        <div class="food">
+            <img src="image/AdobeStock_310581123-1.jpeg" alt="">
+            <h3>Food Item - 12</h3>
+            <p>price: 1200</p>
+            Possimus quas, nesciunt accusamus ipsa perferendis numquam aspernatur autem quos quisquam consequatur laudantium dolorem debitis distinctio labore, ducimus eveniet pariatur.
+        </div>
+        <button>Buy Now</button>
+    </div>
+</body>
+</html>

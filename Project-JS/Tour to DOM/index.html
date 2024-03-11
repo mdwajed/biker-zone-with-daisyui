@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tour to DOM</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="nafi">Welcome to My DOM</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, harum
+        dignissimos blanditiis quas commodi magnam aperiam repellat doloremque
+        explicabo sint, rem saepe quisquam ad eos eligendi natus illum facere
+        ipsum!
+      </p>
+    </header>
+    <main>
+      <section id="javan">
+        <h1 >My Awesome Journey of Javascript</h1>
+        <ul>
+          <li>Object</li>
+          <li>Array</li>
+          <li>Documents</li>
+          <li>Variable</li>
+        </ul>
+      </section>
+      <section>
+        <h1>My Memorising Tour to Sundarban</h1>
+        <ul>
+          <li class="tour">sundarban</li>
+          <li class="tour">bandarban</li>
+          <li class="tour">satkhira</li>
+          <li class="tour">kuakata</li>
+        </ul>
+      </section>
+      <section>
+        <h1>My Awesome Journey to Thailand</h1>
+        <ul>
+          <li>pataiya</li>
+          <li>munich</li>
+          <li>Dakota</li>
+          <li>Venice</li>
+        </ul>
+      </section>
+    </main>
+    <script src="js/dom.js"></script>
+    <script src="js/styleinjs.js"></script>
+    <script>
+      const totalul = document.getElementsByTagName("li");
+      for (const li of totalul) {
+        // console.log(li.innerText)
+      }
+      const allHeading = document.getElementsByTagName("h1");
+      for (const h1 of allHeading) {
+        //console.log(h1.innerText);
+      }
+      const places = document.getElementsByClassName("tour");
+      for (const place of places) {
+        //console.log(place.innerText);
+      }
+      //let header = document.getElementById("nafi");
+      // const text = header.innerText;
+      //console.log(text);
+    </script>
+  </body>
+</html>

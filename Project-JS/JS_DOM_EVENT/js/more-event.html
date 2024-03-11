@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Event</title>
+</head>
+<body>
+    <h1>Wxplore More Event</h1>
+    <button id="MORE-EVENT">EVENTS</button>
+    <input id="set" type="text">
+    <script>
+        // document.getElementById('set').addEventListener('focus',function(){
+        //     console.log('This is MORE Events')
+        // })
+        // document.getElementById('set').addEventListener('blur',function(){
+        //     console.log('This is another Event of our family')
+        // })
+        // document.getElementById('set').addEventListener('keydown',function(event){
+        //     console.log(event.target.value)
+        // })
+        // document.getElementById('set').addEventListener('keypress',function(event){
+        //     console.log(event.target.value)
+        // })
+        document.getElementById('set').addEventListener('keyup',function(event){
+            console.log(event.target.value)
+        })
+        document.getElementById('MORE-EVENT').addEventListener('mousemove',function(){
+            console.log('Event Management')
+        })
+    </script>
+</body>
+</html>

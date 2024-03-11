@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM SUMMARY</title>
+</head>
+<body>
+    <h1>Final DOM Event Handlers</h1>
+    <h3 id="handle">Default Text</h3>
+    <button onclick="handleOnclick()">Handle Event by Add Onclick Function</button>
+    <script>
+        function handleOnclick() {
+          const handleStatus = document.getElementById('handle');
+          handleStatus.innerText="Handled by function attached on click attribute" 
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>HELLO BANGLADESH</h1>
+    <div id="content">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eligendi
+        voluptates, esse vero quae doloremque odio at enim, cumque aut nam,
+        corrupti eveniet iste dolores fugit eaque. Corrupti, dignissimos
+        accusamus.
+      </p>
+      <p>
+        Quas sequi corporis et id harum maxime voluptatibus doloremque
+        voluptates nesciunt repellat perspiciatis sed recusandae nemo velit
+        maiores earum odit, a eligendi dolore ex ea consectetur dolor vel
+        excepturi? Aliquid.
+      </p>
+      <p>
+        Fugiat ad sunt, laborum in quis tempora eum nam repellendus corporis
+        dolorum ex accusantium non dolores modi ipsum nemo quasi velit
+        provident! Iusto molestiae qui odit laborum doloremque, fugiat esse?
+      </p>
+    </div>
+    <div>
+      <textarea name="" id="textBox" cols="60" rows="10"></textarea>
+      <br />
+      <button id="btn">SUBMIT</button>
+    </div>
+    <script>
+    document.getElementById('btn').addEventListener('click',function(){
+      const textBox=document.getElementById("textBox");
+      const newTextBox=textBox.value;
+      const textContainer=document.getElementById("content");
+      const p=document.createElement('p');
+      p.innerText=newTextBox;
+      textContainer.appendChild(p);
+      textBox.value='';
+    })
+    </script>
+  </body>
+</html>

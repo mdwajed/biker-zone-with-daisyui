@@ -1,0 +1,17 @@
+const fruits = ['apple', 'banana', 'egg', 'potato', 'tomato'];
+const arr1 = ["Cecilie", "Lone"];
+const arr2 = ["Emil", "Tobias", "Linus"];
+const arr3 = ["Robin", "Morgan"];
+//console.log(fruits,arr1,arr2,arr3);
+const myArr = [[1,2],[3,4],[5,6]];
+const newArr = myArr.flat();
+//console.log(newArr);
+const fall = ["Banana", "Orange", "Apple", "Mango",'egg', 'potato', 'tomato'];
+fall.splice(0, 3);
+console.log(fall);
+const fruit = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+fruit.slice(2);
+console.log(fruit.slice(2));
+console.log(fruit.indexOf ('Lemon'));
+const Fruits = ["Banana", "Orange", "Apple", "Mango"];
+console.log(Fruits.includes("kala"));

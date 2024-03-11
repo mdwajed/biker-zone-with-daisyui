@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore Buble Event</title>
+    <style>
+      #item-2 {
+        border: 2px solid red;
+      }
+      ul {
+        border: 2px solid green;
+      }
+      section {
+        border: 2px solid blue;
+      }
+      body {
+        border: 2px solid yellow;
+      }
+    </style>
+  </head>
+  <body id="inner">
+    <h1>I AM WAJED</h1>
+    <section id="part">
+      <h1>BUBBLE EXPLORATION</h1>
+      <ul id="list">
+        <li id="item-1">Lorem, ipsum dolor.</li>
+        <li id="item-2">Aliquid, fugiat maiores.</li>
+        <li id="item-3">Consequatur, neque expedita?</li>
+        <li id="item-4">Minus, quod enim.</li>
+        <li id="item-5">Consequuntur, non reprehenderit.</li>
+        <li id="item-6">In, numquam quis.</li>
+      </ul>
+    </section>
+    <script>
+      document
+        .getElementById("item-2")
+        .addEventListener("click", function (event) {
+          console.log("item-2 clicked");
+          event.stopPropagation();
+        });
+      document.getElementById("list").addEventListener("click", function () {
+        console.log("ul clicked");
+      });
+      document.getElementById("part").addEventListener("click", function () {
+        console.log("section clicked");
+      });
+      document.getElementById("inner").addEventListener("click", function () {
+        console.log("inner clicked");
+      });
+    </script>
+  </body>
+</html>
